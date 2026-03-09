@@ -16,7 +16,7 @@ jobs:
     - name: Clone dataset repo
       run: |
         git clone https://huggingface.co/datasets/YashasKumar08/2022BCS0145-mlops-lab8/
-        cp dataset_repo/housing.csv data/
+        cp 2022BCS0145-mlops-lab8/housing.csv data/
 
     - name: Setup Python
       uses: actions/setup-python@v4
