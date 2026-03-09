@@ -5,7 +5,7 @@ import joblib
 import os
 
 # Load dataset
-data = pd.read_csv("data/housing.csv")
+data = pd.read_csv("data/housing_version2.csv")
 
 # Fill missing values
 data = data.fillna(data.mean(numeric_only=True))
